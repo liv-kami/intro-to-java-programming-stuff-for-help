@@ -48,8 +48,8 @@ public class Exercise03_25 {
             b = -(x1 - x2);
             c = y3 - y4;
             d = -(x3 - x4);
-            e = a * x1 - b * y1;
-            f = c * x3 - d * y3;
+            e = a * x1 + b * y1;
+            f = c * x3 + d * y3;
 
             double DxDy = a * d - b * c;
 
